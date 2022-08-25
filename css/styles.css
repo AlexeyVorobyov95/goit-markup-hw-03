@@ -29,8 +29,7 @@ color: var(--primary-tex-color);
 * h1, h2, h3, h4, h5, h6, ul, p {
 margin: 0px;
 padding: 0px;
-    }
-
+}
 
 .logo,
 .footer-logo {
@@ -88,10 +87,6 @@ color: var(--primary-tex-color);
 color: var(--accent-color);
 }
 
-/* .nav-list-link:visited { */
-/* color:var(--accent-color); */
-/* } */
-
 .link :hover,
 .link :focus {
 color: var(--accent-color);
@@ -133,8 +128,6 @@ text-align: center;
 }
 
 .section {
-/* width: 1600px; */
-/* height: 600px; */
 background: var(--bg-colar);
 }
 
@@ -153,6 +146,7 @@ cursor: pointer;
 margin-right: auto;
 margin-left: auto;
 padding: 10px 32px;
+border-color: transparent
 }
 
 .features-item .features-titel {
