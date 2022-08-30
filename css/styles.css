@@ -61,11 +61,7 @@ color: var(--accent-color);
 }
 
 .header {
-width: 1630px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
+padding: 24px 0;
 border-bottom: 1px solid #ECECEC;
 }
 
@@ -79,11 +75,6 @@ color: var(--secondary-text-colar);
 }
 
 .section.hero {
-width: 1630px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
 background-color: var(--bg-colar);
 padding-top: 200px;
 padding-bottom: 200px;
@@ -138,11 +129,6 @@ text-align: center;
 }
 
 .section {
-width: 1630px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
 padding-bottom: 94px;
 padding-top: 94px;
 }
@@ -195,11 +181,6 @@ height: auto;
 }
 
 .section.team {
-width: 1630px;
-margin-left: auto;
-margin-right: auto;
-padding-left: 15px;
-padding-right: 15px;
 background: var(--bg-team-colar);
 
 }
@@ -233,11 +214,6 @@ padding-bottom: 30px;
 }
 
 .footer {
-width: 1630px;
-margin-right: auto;
-margin-left: auto;
-padding-left: 15px;
-padding-right: 15px;
 background-color: var(--bg-colar);
 padding-top: 60px;
 padding-bottom: 60px;
@@ -316,12 +292,10 @@ display: flex;
 
 .container {
 width: 1200px;
-align-items: center;
 margin-left: auto;
 margin-right: auto;
 padding-left: 15px;
 padding-right: 15px;
-/* outline: 2px solid red; */
 }
 
 .nav-list-item:not( :last-child) {
@@ -334,8 +308,6 @@ margin-left: 93px;
 
 .nav-list {
 display: flex;
-padding-top: 32px;
-padding-bottom: 32px;
 }
 
 .contacts-list {
